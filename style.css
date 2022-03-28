@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    height: 90%;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    padding-top: 20px;
+    left: 0;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 90px;
+}
+
+.right {
+    height: 90%;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    padding-top: 20px;
+    right: 0;
+    background-color: white;
+    box-shadow: 5px 6px 5px black;
+    border-radius: 90px;
+}
+
+aside {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+aside:hover {
+    box-shadow: 10px 10px 10px crimson;
+}
+
+.player1,
+.player2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    color: gray;
+    margin: 0%;
+    font-family: 'Source Code Pro';
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Source Code Pro';
+}
+
+.ongame1,
+.ongame2 {
+    text-align: center;
+    color: red;
+    font-family: 'Source Code Pro';
+    font-size: 50px;
+}
+
+.scorebar1,
+.scorebar2 {
+    width: 120px;
+    height: 60px;
+    box-shadow: 6px 6px 6px black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    color: white;
+    justify-self: center;
+    text-align: center;
+    border-radius: 40%;
+    font-family: 'Source Code Pro';
+}
+
+.sbar1,
+.sbar2 {
+    font-size: 45px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+}
+
+.newgame {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0%;
+}
+
+#dice {
+    margin-bottom: 100px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 6px black;
+}
+
+#dice:hover {
+    border: 10px solid crimson;
+}
+
+.Spin {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    margin-top: 0%;
+}
+
+.Spin:hover,
+.Pass:hover,
+.newgame:hover,
+.scorebar1:hover,
+.scorebar2:hover {
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    border: 10px solid crimson;
+}
+
+.Pass {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0%;
+}
